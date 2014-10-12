@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="fondo_menu" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,12 +51,7 @@
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="titleObject" x="0" y="32" name="inst_B16A43F6" locked="0" code="" scaleX="0.61176472902298" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="inicioObject" x="544" y="0" name="inst_2F0B3A24" locked="0" code="" scaleX="0.457142859697342" scaleY="0.436363637447357" colour="4294967295" rotation="0"/>
-    <instance objName="opcionesObject" x="576" y="96" name="inst_3867ABB4" locked="0" code="" scaleX="0.310679614543915" scaleY="0.448598116636276" colour="4294967295" rotation="0"/>
-    <instance objName="rankingObject" x="576" y="192" name="inst_3BFCA99C" locked="0" code="" scaleX="0.414814800024033" scaleY="0.461538463830948" colour="4294967295" rotation="0"/>
-    <instance objName="ayudaObject" x="576" y="288" name="inst_B161E38E" locked="0" code="" scaleX="0.480686694383621" scaleY="0.644444465637207" colour="4294967295" rotation="0"/>
-    <instance objName="noObject" x="128" y="160" name="inst_381617C9" locked="0" code="" scaleX="0.769230782985687" scaleY="0.689320385456085" colour="4294967295" rotation="0"/>
+    <instance objName="restartObjectt" x="320" y="288" name="inst_638A52D0" locked="0" code="" scaleX="0.639999985694885" scaleY="0.573333323001862" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

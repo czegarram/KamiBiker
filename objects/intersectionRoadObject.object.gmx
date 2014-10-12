@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>var random_number_orion = random_range(0,87)
 
-vspeed = 5
+vspeed = global.velocidad_global;
 global.increment=global.increment+3
 orion_left = instance_create(-250,y,orionObject)
 with(orion_left){
@@ -38,7 +38,7 @@ orion_right = instance_create(room_width+50,y,orionObject)
 
 viaLimit =instance_create(x+100,y-100,autoViaLimit);
 with(viaLimit){
-    vspeed=5;
+    vspeed = global.velocidad_global;
 }
 
 
@@ -66,6 +66,8 @@ with(viaLimit){
             <kind>1</kind>
             <string>if(global.ciclista_muerto){
     vspeed=0;
+}else{
+    vspeed = global.velocidad_global;
 }
 </string>
           </argument>

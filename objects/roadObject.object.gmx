@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = 5
+            <string>vspeed = global.velocidad_global;
 //random_number = random_range(5,8)
 
 
@@ -53,6 +53,8 @@
             <kind>1</kind>
             <string>if(global.ciclista_muerto){
     vspeed=0;
+}else{
+    vspeed = global.velocidad_global;
 }
 </string>
           </argument>

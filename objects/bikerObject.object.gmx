@@ -50,8 +50,8 @@ muerto=false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("Perdiste");
-room_restart();
+            <string>audio_stop_all();
+room_goto_next();
 </string>
           </argument>
         </arguments>
@@ -75,8 +75,7 @@ room_restart();
           <argument>
             <kind>1</kind>
             <string>if(y&gt;room_height+20 &amp;&amp; !perdio){
-    show_message("Perdiste")
-    room_restart()
+    room_goto_next();
     perdio=true    
 }
 
@@ -106,8 +105,18 @@ if(global.ciclista_muerto &amp;&amp; !perdio){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("Perdiste")
-room_restart()
+            <string>
+if(!global.ciclista_muerto){
+    var ins = instance_create(x,y,boomObject);
+    image_speed=0;
+    vspeed=0;
+    hspeed=0;
+    global.ciclista_muerto=true;
+    visible=false;
+    if(!audio_is_playing(sonidoAccidente)){
+        audio_play_sound(sonidoAccidente,10,0);
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -141,32 +150,12 @@ with(other){
 }
 global.ciclista_muerto=true
 muerto=true
+if(!audio_is_playing(sonidoAccidente)){
+    audio_play_sound(sonidoAccidente,10,0);
+}
+
 
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>sonidoAccidente</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>

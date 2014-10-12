@@ -12,7 +12,7 @@ show_debug_message(string(collision_point(newPosX, newPosY, autoViaLimit,true,fa
 if(collision_point(newPosX, newPosY, autoViaLimit,true,false) == noone){
     var obstacle = instance_create(newPosX,newPosY,obstaculeObject);
     with(obstacle){
-        vspeed = 5;        
+        vspeed = global.velocidad_global;
         image_index=random_index%4;
     }
 }

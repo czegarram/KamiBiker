@@ -23,9 +23,13 @@
     <sprite>sprites\ranking</sprite>
     <sprite>sprites\opciones</sprite>
     <sprite>sprites\ayuda</sprite>
+    <sprite>sprites\boom</sprite>
+    <sprite>sprites\no</sprite>
+    <sprite>sprites\restart</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\fondo_menu</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -46,10 +50,14 @@
     <object>objects\rankingObject</object>
     <object>objects\opcionesObject</object>
     <object>objects\ayudaObject</object>
+    <object>objects\boomObject</object>
+    <object>objects\noObject</object>
+    <object>objects\restartObjectt</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
     <room>rooms\level1</room>
+    <room>rooms\fin</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

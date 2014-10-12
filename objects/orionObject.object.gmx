@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed=5
+            <string>vspeed = global.velocidad_global;
 image_speed=0
 image_xscale=0.5
 image_yscale=0.5
@@ -53,6 +53,8 @@ image_yscale=0.5
             <kind>1</kind>
             <string>if(global.ciclista_muerto){
     vspeed=0;
+}else{
+    vspeed = global.velocidad_global;
 }
 </string>
           </argument>
