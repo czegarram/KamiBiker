@@ -5,7 +5,10 @@
     <Config>Configs\aa</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bicicletaSirena</sound>
+    <sound>sound\sonidoAccidente</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\road</sprite>
     <sprite>sprites\red_circle</sprite>
