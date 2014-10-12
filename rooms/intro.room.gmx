@@ -57,6 +57,7 @@
     <instance objName="rankingObject" x="576" y="192" name="inst_3BFCA99C" locked="0" code="" scaleX="0.414814800024033" scaleY="0.461538463830948" colour="4294967295" rotation="0"/>
     <instance objName="ayudaObject" x="576" y="288" name="inst_B161E38E" locked="0" code="" scaleX="0.480686694383621" scaleY="0.644444465637207" colour="4294967295" rotation="0"/>
     <instance objName="noObject" x="128" y="160" name="inst_381617C9" locked="0" code="" scaleX="0.769230782985687" scaleY="0.689320385456085" colour="4294967295" rotation="0"/>
+    <instance objName="introController" x="0" y="0" name="inst_F7766F56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

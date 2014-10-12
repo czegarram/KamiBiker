@@ -8,6 +8,7 @@
   <sounds name="sound">
     <sound>sound\bicicletaSirena</sound>
     <sound>sound\sonidoAccidente</sound>
+    <sound>sound\introMusica</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\road</sprite>
@@ -53,6 +54,7 @@
     <object>objects\boomObject</object>
     <object>objects\noObject</object>
     <object>objects\restartObjectt</object>
+    <object>objects\introController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\intro</room>
