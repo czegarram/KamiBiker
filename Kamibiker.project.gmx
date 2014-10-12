@@ -13,11 +13,21 @@
     <sprite>sprites\limit</sprite>
     <sprite>sprites\intersection</sprite>
     <sprite>sprites\orion_horizontal</sprite>
+    <sprite>sprites\obstaculos</sprite>
+    <sprite>sprites\limitVia</sprite>
+    <sprite>sprites\title</sprite>
+    <sprite>sprites\inicio</sprite>
+    <sprite>sprites\ranking</sprite>
+    <sprite>sprites\opciones</sprite>
+    <sprite>sprites\ayuda</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\init_script.gml</script>
+    <script>scripts\generate_obstacles.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\DarthVaderObject</object>
@@ -26,8 +36,16 @@
     <object>objects\limitObject</object>
     <object>objects\intersectionRoadObject</object>
     <object>objects\orionObject</object>
+    <object>objects\obstaculeObject</object>
+    <object>objects\autoViaLimit</object>
+    <object>objects\titleObject</object>
+    <object>objects\inicioObject</object>
+    <object>objects\rankingObject</object>
+    <object>objects\opcionesObject</object>
+    <object>objects\ayudaObject</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\intro</room>
     <room>rooms\level1</room>
   </rooms>
   <help>

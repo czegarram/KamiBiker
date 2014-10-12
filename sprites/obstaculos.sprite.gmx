@@ -6,11 +6,11 @@
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
-  <bboxmode>1</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>469</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>174</bbox_bottom>
+  <bboxmode>0</bboxmode>
+  <bbox_left>2</bbox_left>
+  <bbox_right>72</bbox_right>
+  <bbox_top>2</bbox_top>
+  <bbox_bottom>66</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,12 +18,12 @@
     <TextureGroup1>0</TextureGroup1>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>470</width>
-  <height>175</height>
+  <width>79</width>
+  <height>72</height>
   <frames>
-    <frame index="0">images\orion_horizontal_0.png</frame>
-    <frame index="1">images\orion_horizontal_1.png</frame>
-    <frame index="2">images\orion_horizontal_2.png</frame>
-    <frame index="3">images\orion_horizontal_3.png</frame>
+    <frame index="0">images\obstaculos_0.png</frame>
+    <frame index="1">images\obstaculos_1.png</frame>
+    <frame index="2">images\obstaculos_2.png</frame>
+    <frame index="3">images\obstaculos_3.png</frame>
   </frames>
 </sprite>
